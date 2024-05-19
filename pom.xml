@@ -1,0 +1,61 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.campus</groupId>
+	<artifactId>retrofit</artifactId>
+	<version>1.0.0</version>
+
+	<packaging>jar</packaging>
+	<name>Retrofid Example</name>
+
+	<properties>
+		<maven.compiler.sourse>17</maven.compiler.sourse>
+		<maven.compiler.target>17</maven.compiler.target>
+	</properties>
+
+	<licenses>
+		<license>
+			<name>MIT License</name>
+			<url>http://www.opensourse.org/lincenses/mit-lincense.ph</url>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<name>Mihail Lyshkov</name>
+			<email>lyshkov.mihail@gmail.com</email>
+			<organization>com.github.jaSmlx</organization>
+			<organizationUrl>https://github.com/jaSmlx</organizationUrl>
+		</developer>
+	</developers>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.squareup.retrofit2</groupId>
+			<artifactId>retrofit</artifactId>
+			<version>2.9.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.squareup.retrofit2</groupId>
+			<artifactId>converter-gson</artifactId>
+			<version>2.9.0</version>
+		</dependency>
+	</dependencies>
+
+
+</project>
+
+
+
+
+
+
+
+
+
+
+
+
+
